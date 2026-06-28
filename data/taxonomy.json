@@ -1,2021 +1,2357 @@
 {
-  "version": "1.0.0",
+  "version": "1.1.0",
   "categories": [
     {
       "id": 1,
       "type": "funko_pop",
       "label": "Funko",
-      "parent_id": 140
+      "parent_id": 140,
+      "allows_inventory": false
     },
     {
       "id": 2,
       "type": "pokemon_cards",
       "label": "Pokémon Cards",
-      "parent_id": 149
+      "parent_id": 149,
+      "allows_inventory": true
     },
     {
       "id": 3,
       "type": "sports_cards",
       "label": "Sports Cards",
-      "parent_id": null
+      "parent_id": null,
+      "allows_inventory": false
     },
     {
       "id": 4,
       "type": "funko_soda",
       "label": "Funko Soda",
-      "parent_id": 1
+      "parent_id": 1,
+      "allows_inventory": true
     },
     {
       "id": 5,
       "type": "designer_toys",
       "label": "Designer Toys",
-      "parent_id": 140
+      "parent_id": 140,
+      "allows_inventory": false
     },
     {
       "id": 6,
       "type": "video_games",
       "label": "Retro Games",
-      "parent_id": 155
+      "parent_id": 155,
+      "allows_inventory": true
     },
     {
       "id": 7,
       "type": "figpin",
       "label": "FigPin",
-      "parent_id": 140
+      "parent_id": 140,
+      "allows_inventory": true
     },
     {
       "id": 8,
       "type": "yugioh_cards",
       "label": "Yu-Gi-Oh! Cards",
-      "parent_id": 149
+      "parent_id": 149,
+      "allows_inventory": true
     },
     {
       "id": 9,
       "type": "magic_cards",
       "label": "Magic: The Gathering",
-      "parent_id": 149
+      "parent_id": 149,
+      "allows_inventory": true
     },
     {
       "id": 10,
       "type": "legos",
       "label": "LEGO",
-      "parent_id": 140
+      "parent_id": 140,
+      "allows_inventory": false
     },
     {
       "id": 11,
       "type": "comic_books",
       "label": "Comics & Manga",
-      "parent_id": null
+      "parent_id": null,
+      "allows_inventory": false
     },
     {
       "id": 12,
       "type": "dragonball_cards",
       "label": "Dragon Ball Cards",
-      "parent_id": 149
+      "parent_id": 149,
+      "allows_inventory": true
     },
     {
       "id": 13,
       "type": "marvel_cards",
       "label": "Marvel Cards",
-      "parent_id": 2048
+      "parent_id": 2048,
+      "allows_inventory": true
     },
     {
       "id": 14,
       "type": "other",
       "label": "Other",
-      "parent_id": 148
+      "parent_id": 148,
+      "allows_inventory": true
     },
     {
       "id": 15,
       "type": "sports_memorabilia",
       "label": "Sports Memorabilia",
-      "parent_id": null
+      "parent_id": null,
+      "allows_inventory": false
     },
     {
       "id": 16,
       "type": "vintage_clothing",
       "label": "Men's Vintage Clothing",
-      "parent_id": 654
+      "parent_id": 654,
+      "allows_inventory": true
     },
     {
       "id": 49,
       "type": "sneakers",
       "label": "Sneakers",
-      "parent_id": 237
+      "parent_id": 237,
+      "allows_inventory": true
     },
     {
       "id": 51,
       "type": "streetwear",
       "label": "Streetwear",
-      "parent_id": 237
+      "parent_id": 237,
+      "allows_inventory": true
     },
     {
       "id": 52,
       "type": "coins_and_money",
       "label": "Coins & Money",
-      "parent_id": null
+      "parent_id": null,
+      "allows_inventory": false
     },
     {
       "id": 53,
       "type": "action_figures",
       "label": "Action Figures",
-      "parent_id": null
+      "parent_id": null,
+      "allows_inventory": false
     },
     {
       "id": 54,
       "type": "vinyl_records",
       "label": "Vinyl Records",
-      "parent_id": 247
+      "parent_id": 247,
+      "allows_inventory": true
     },
     {
       "id": 55,
       "type": "diecast_cars",
       "label": "Diecast",
-      "parent_id": 140
+      "parent_id": 140,
+      "allows_inventory": false
     },
     {
       "id": 58,
       "type": "metazoo",
       "label": "MetaZoo",
-      "parent_id": 149
+      "parent_id": 149,
+      "allows_inventory": true
     },
     {
       "id": 91,
       "type": "baseball",
       "label": "Baseball Cards",
-      "parent_id": 3
+      "parent_id": 3,
+      "allows_inventory": false
     },
     {
       "id": 92,
       "type": "my_hero_academia",
       "label": "UniVersus Cards",
-      "parent_id": 149
+      "parent_id": 149,
+      "allows_inventory": true
     },
     {
       "id": 93,
       "type": "weiß_schwarz",
       "label": "Weiß Schwarz",
-      "parent_id": 149
+      "parent_id": 149,
+      "allows_inventory": true
     },
     {
       "id": 94,
       "type": "digimon_cards",
       "label": "Digimon Cards",
-      "parent_id": 149
+      "parent_id": 149,
+      "allows_inventory": true
     },
     {
       "id": 95,
       "type": "manga",
       "label": "Anime & Manga",
-      "parent_id": 11
+      "parent_id": 11,
+      "allows_inventory": true
     },
     {
       "id": 96,
       "type": "soccer",
       "label": "Soccer Cards",
-      "parent_id": 3
+      "parent_id": 3,
+      "allows_inventory": false
     },
     {
       "id": 133,
       "type": "designer_bags",
       "label": "Luxury Bags & Accessories",
-      "parent_id": 239
+      "parent_id": 239,
+      "allows_inventory": true
     },
     {
       "id": 134,
       "type": "ufc",
       "label": "UFC Cards",
-      "parent_id": 3
+      "parent_id": 3,
+      "allows_inventory": false
     },
     {
       "id": 135,
       "type": "football",
       "label": "Football Cards",
-      "parent_id": 3
+      "parent_id": 3,
+      "allows_inventory": false
     },
     {
       "id": 136,
       "type": "wrestling",
       "label": "Wrestling Cards",
-      "parent_id": 3
+      "parent_id": 3,
+      "allows_inventory": false
     },
     {
       "id": 137,
       "type": "f1",
       "label": "F1 Cards",
-      "parent_id": 604
+      "parent_id": 604,
+      "allows_inventory": false
     },
     {
       "id": 138,
       "type": "tcg_other",
       "label": "Kickstarter & Other Cards",
-      "parent_id": 149
+      "parent_id": 149,
+      "allows_inventory": true
     },
     {
       "id": 139,
       "type": "sports_other",
       "label": "Other Sports Cards",
-      "parent_id": 3
+      "parent_id": 3,
+      "allows_inventory": true
     },
     {
       "id": 140,
       "type": "toys",
       "label": "Toys & Hobbies",
-      "parent_id": null
+      "parent_id": null,
+      "allows_inventory": false
     },
     {
       "id": 141,
       "type": "books",
       "label": "Books",
-      "parent_id": null
+      "parent_id": null,
+      "allows_inventory": false
     },
     {
       "id": 142,
       "type": "comic_art",
       "label": "Comic Art",
-      "parent_id": 11
+      "parent_id": 11,
+      "allows_inventory": true
     },
     {
       "id": 143,
       "type": "graphic_novels",
       "label": "Graphic Novels",
-      "parent_id": 141
+      "parent_id": 141,
+      "allows_inventory": true
     },
     {
       "id": 146,
       "type": "thrifting",
       "label": "Women's Contemporary",
-      "parent_id": 656
+      "parent_id": 656,
+      "allows_inventory": true
     },
     {
       "id": 147,
       "type": "fashion_other",
       "label": "Other Women's Fashion",
-      "parent_id": 656
+      "parent_id": 656,
+      "allows_inventory": true
     },
     {
       "id": 148,
       "type": "and_whatnot",
       "label": "and Whatnot",
-      "parent_id": null
+      "parent_id": null,
+      "allows_inventory": false
     },
     {
       "id": 149,
       "type": "trading_card_games",
       "label": "Trading Card Games",
-      "parent_id": null
+      "parent_id": null,
+      "allows_inventory": false
     },
     {
       "id": 150,
       "type": "toys_other",
       "label": "Other Toys",
-      "parent_id": 140
+      "parent_id": 140,
+      "allows_inventory": true
     },
     {
       "id": 153,
       "type": "basketball_cards",
       "label": "Basketball Cards",
-      "parent_id": 3
+      "parent_id": 3,
+      "allows_inventory": false
     },
     {
       "id": 154,
       "type": "flesh_and_blood",
       "label": "Flesh & Blood",
-      "parent_id": 149
+      "parent_id": 149,
+      "allows_inventory": true
     },
     {
       "id": 155,
       "type": "video_games_and_movies",
       "label": "Video Games",
-      "parent_id": null
+      "parent_id": null,
+      "allows_inventory": false
     },
     {
       "id": 156,
       "type": "movies",
       "label": "Movies",
-      "parent_id": null
+      "parent_id": null,
+      "allows_inventory": false
     },
     {
       "id": 157,
       "type": "other_vg_and_movies",
       "label": "Consoles & Accessories",
-      "parent_id": 155
+      "parent_id": 155,
+      "allows_inventory": true
     },
     {
       "id": 158,
       "type": "akora",
       "label": "Akora",
-      "parent_id": 149
+      "parent_id": 149,
+      "allows_inventory": true
     },
     {
       "id": 159,
       "type": "loungefly",
       "label": "Loungefly",
-      "parent_id": 162
+      "parent_id": 162,
+      "allows_inventory": true
     },
     {
       "id": 160,
       "type": "plush",
       "label": "Plush",
-      "parent_id": 140
+      "parent_id": 140,
+      "allows_inventory": false
     },
     {
       "id": 161,
       "type": "hockey_cards",
       "label": "Hockey Cards",
-      "parent_id": 3
+      "parent_id": 3,
+      "allows_inventory": false
     },
     {
       "id": 162,
       "type": "disneyana",
       "label": "Disneyana",
-      "parent_id": null
+      "parent_id": null,
+      "allows_inventory": false
     },
     {
       "id": 163,
       "type": "crystals_and_gems",
       "label": "Rocks & Crystals",
-      "parent_id": null
+      "parent_id": null,
+      "allows_inventory": false
     },
     {
       "id": 164,
       "type": "estate_sales_and_antiques",
       "label": "Estate Sales & Storage Units",
-      "parent_id": null
+      "parent_id": null,
+      "allows_inventory": false
     },
     {
       "id": 165,
       "type": "watches",
       "label": "Watches",
-      "parent_id": null
+      "parent_id": null,
+      "allows_inventory": true
     },
     {
       "id": 198,
       "type": "food_drink",
       "label": "Food & Drink",
-      "parent_id": null
+      "parent_id": null,
+      "allows_inventory": false
     },
     {
       "id": 199,
       "type": "arts_crafts",
       "label": "Arts & Handmade",
-      "parent_id": null
+      "parent_id": null,
+      "allows_inventory": false
     },
     {
       "id": 200,
       "type": "kids_clothing",
       "label": "Baby & Kids",
-      "parent_id": null
+      "parent_id": null,
+      "allows_inventory": false
     },
     {
       "id": 201,
       "type": "jewelry",
       "label": "Jewelry",
-      "parent_id": null
+      "parent_id": null,
+      "allows_inventory": false
     },
     {
       "id": 202,
       "type": "tabletop_games",
       "label": "Tabletop Games",
-      "parent_id": 140
+      "parent_id": 140,
+      "allows_inventory": false
     },
     {
       "id": 235,
       "type": "barbies_dolls",
       "label": "Dolls",
-      "parent_id": 140
+      "parent_id": 140,
+      "allows_inventory": false
     },
     {
       "id": 237,
       "type": "sneakers_streetwear",
       "label": "Sneakers & Streetwear",
-      "parent_id": null
+      "parent_id": null,
+      "allows_inventory": false
     },
     {
       "id": 239,
       "type": "bags_jewelry_accessories",
       "label": "Bags & Accessories",
-      "parent_id": null
+      "parent_id": null,
+      "allows_inventory": false
     },
     {
       "id": 240,
       "type": "other_accessories",
       "label": "Other Accessories",
-      "parent_id": 239
+      "parent_id": 239,
+      "allows_inventory": true
     },
     {
       "id": 243,
       "type": "bronze_age_comics",
       "label": "Vintage Comics",
-      "parent_id": 11
+      "parent_id": 11,
+      "allows_inventory": true
     },
     {
       "id": 244,
       "type": "modern_age_comics",
       "label": "Modern Comics",
-      "parent_id": 11
+      "parent_id": 11,
+      "allows_inventory": true
     },
     {
       "id": 245,
       "type": "coins_and_bullion",
       "label": "Coins & Bullion",
-      "parent_id": 52
+      "parent_id": 52,
+      "allows_inventory": true
     },
     {
       "id": 246,
       "type": "paper_money_and_currency",
       "label": "Paper Money & Currency",
-      "parent_id": 52
+      "parent_id": 52,
+      "allows_inventory": true
     },
     {
       "id": 247,
       "type": "music",
       "label": "Music",
-      "parent_id": null
+      "parent_id": null,
+      "allows_inventory": false
     },
     {
       "id": 248,
       "type": "cds_and_cassettes",
       "label": "CDs & Cassettes",
-      "parent_id": 247
+      "parent_id": 247,
+      "allows_inventory": true
     },
     {
       "id": 249,
       "type": "music_memorabilia",
       "label": "Music Memorabilia",
-      "parent_id": 247
+      "parent_id": 247,
+      "allows_inventory": true
     },
     {
       "id": 251,
       "type": "other_music",
       "label": "Other Music",
-      "parent_id": 247
+      "parent_id": 247,
+      "allows_inventory": true
     },
     {
       "id": 252,
       "type": "instruments_and_accessories",
       "label": "Instruments & Accessories",
-      "parent_id": 247
+      "parent_id": 247,
+      "allows_inventory": true
     },
     {
       "id": 253,
       "type": "health_and_beauty",
       "label": "Beauty",
-      "parent_id": null
+      "parent_id": null,
+      "allows_inventory": false
     },
     {
       "id": 254,
       "type": "home_and_garden",
       "label": "Home & Garden",
-      "parent_id": null
+      "parent_id": null,
+      "allows_inventory": false
     },
     {
       "id": 255,
       "type": "crafts_customs",
       "label": "Beads, Pens & Keychains",
-      "parent_id": 1077
+      "parent_id": 1077,
+      "allows_inventory": true
     },
     {
       "id": 256,
       "type": "crafts_art_prints",
       "label": "Other Craft Supplies",
-      "parent_id": 1077
+      "parent_id": 1077,
+      "allows_inventory": true
     },
     {
       "id": 258,
       "type": "crafts_crafts",
       "label": "Artisan Home Goods",
-      "parent_id": 1078
+      "parent_id": 1078,
+      "allows_inventory": true
     },
     {
       "id": 259,
       "type": "arts_crafts_crafts_not_other",
       "label": "Art & Prints",
-      "parent_id": 1078
+      "parent_id": 1078,
+      "allows_inventory": true
     },
     {
       "id": 260,
       "type": "cameras",
       "label": "Cameras & Photography",
-      "parent_id": 347
+      "parent_id": 347,
+      "allows_inventory": true
     },
     {
       "id": 261,
       "type": "stamps",
       "label": "Postage Stamps",
-      "parent_id": 582
+      "parent_id": 582,
+      "allows_inventory": true
     },
     {
       "id": 264,
       "type": "other_electronics",
       "label": "Everyday Electronics",
-      "parent_id": 347
+      "parent_id": 347,
+      "allows_inventory": true
     },
     {
       "id": 265,
       "type": "liquidation_pallets",
       "label": "Deal Hunting",
-      "parent_id": 164
+      "parent_id": 164,
+      "allows_inventory": true
     },
     {
       "id": 266,
       "type": "sports_equipment",
       "label": "Sporting Gear",
-      "parent_id": null
+      "parent_id": null,
+      "allows_inventory": false
     },
     {
       "id": 267,
       "type": "bags_fashion_thrift",
       "label": "Midrange & Fashion Bags",
-      "parent_id": 239
+      "parent_id": 239,
+      "allows_inventory": true
     },
     {
       "id": 268,
       "type": "pop_culture_memorabiliia",
       "label": "Pop Culture Memorabilia",
-      "parent_id": 11
+      "parent_id": 11,
+      "allows_inventory": true
     },
     {
       "id": 269,
       "type": "tcg_accessories",
       "label": "TCG Accessories",
-      "parent_id": 149
+      "parent_id": 149,
+      "allows_inventory": true
     },
     {
       "id": 270,
       "type": "mens_thrifting",
       "label": "Men's Modern",
-      "parent_id": 654
+      "parent_id": 654,
+      "allows_inventory": true
     },
     {
       "id": 271,
       "type": "garbage_pail_kids",
       "label": "Garbage Pail Kids",
-      "parent_id": 2048
+      "parent_id": 2048,
+      "allows_inventory": true
     },
     {
       "id": 304,
       "type": "estate_sales",
       "label": "Estate Sales",
-      "parent_id": 164
+      "parent_id": 164,
+      "allows_inventory": true
     },
     {
       "id": 305,
       "type": "ephemera_and_postcards",
       "label": "Ephemera & Postcards",
-      "parent_id": 582
+      "parent_id": 582,
+      "allows_inventory": true
     },
     {
       "id": 306,
       "type": "vintage_decor",
       "label": "Vintage Decor",
-      "parent_id": 582
+      "parent_id": 582,
+      "allows_inventory": true
     },
     {
       "id": 307,
       "type": "other_estate_sales",
       "label": "Other Estate Sales & Storage Units ",
-      "parent_id": 164
+      "parent_id": 164,
+      "allows_inventory": true
     },
     {
       "id": 308,
       "type": "breweriana",
       "label": "Breweriana",
-      "parent_id": 148
+      "parent_id": 148,
+      "allows_inventory": true
     },
     {
       "id": 309,
       "type": "disneyana_pins",
       "label": "Disney Pins",
-      "parent_id": 162
+      "parent_id": 162,
+      "allows_inventory": true
     },
     {
       "id": 310,
       "type": "disneyana_other",
       "label": "Other Disneyana",
-      "parent_id": 162
+      "parent_id": 162,
+      "allows_inventory": true
     },
     {
       "id": 311,
       "type": "naruto_cards",
       "label": "Naruto Cards",
-      "parent_id": 149
+      "parent_id": 149,
+      "allows_inventory": true
     },
     {
       "id": 312,
       "type": "dc_cards",
       "label": "DC Cards",
-      "parent_id": 149
+      "parent_id": 149,
+      "allows_inventory": true
     },
     {
       "id": 313,
       "type": "roleplaying_toys",
       "label": "D&D & Role-playing Games",
-      "parent_id": 202
+      "parent_id": 202,
+      "allows_inventory": true
     },
     {
       "id": 314,
       "type": "kawaii_other",
       "label": "Kawaii",
-      "parent_id": 140
+      "parent_id": 140,
+      "allows_inventory": true
     },
     {
       "id": 347,
       "type": "electronics",
       "label": "Electronics",
-      "parent_id": null
+      "parent_id": null,
+      "allows_inventory": false
     },
     {
       "id": 380,
       "type": "marvel_figures",
       "label": "Marvel Figures",
-      "parent_id": 53
+      "parent_id": 53,
+      "allows_inventory": true
     },
     {
       "id": 381,
       "type": "tmnt_figures",
       "label": "TMNT Figures",
-      "parent_id": 53
+      "parent_id": 53,
+      "allows_inventory": true
     },
     {
       "id": 382,
       "type": "wrestling_figures",
       "label": "Wrestling Figures",
-      "parent_id": 53
+      "parent_id": 53,
+      "allows_inventory": true
     },
     {
       "id": 383,
       "type": "star_wars_figures",
       "label": "Star Wars Figures",
-      "parent_id": 53
+      "parent_id": 53,
+      "allows_inventory": true
     },
     {
       "id": 384,
       "type": "gi_joe_figures",
       "label": "G.I. Joe Figures",
-      "parent_id": 53
+      "parent_id": 53,
+      "allows_inventory": true
     },
     {
       "id": 385,
       "type": "transformers_figures",
       "label": "Transformers Figures",
-      "parent_id": 53
+      "parent_id": 53,
+      "allows_inventory": true
     },
     {
       "id": 386,
       "type": "motu_figures",
       "label": "MOTU Figures",
-      "parent_id": 53
+      "parent_id": 53,
+      "allows_inventory": true
     },
     {
       "id": 387,
       "type": "anime_figures",
       "label": "Anime Figures",
-      "parent_id": 53
+      "parent_id": 53,
+      "allows_inventory": true
     },
     {
       "id": 388,
       "type": "hot_toys_figures",
       "label": "Hot Toys",
-      "parent_id": 53
+      "parent_id": 53,
+      "allows_inventory": true
     },
     {
       "id": 389,
       "type": "simpsons_figures",
       "label": "Simpsons Figures",
-      "parent_id": 53
+      "parent_id": 53,
+      "allows_inventory": true
     },
     {
       "id": 390,
       "type": "other_action_figures",
       "label": "Other Action Figures",
-      "parent_id": 53
+      "parent_id": 53,
+      "allows_inventory": true
     },
     {
       "id": 391,
       "type": "power_ranger_figures",
       "label": "Power Rangers",
-      "parent_id": 53
+      "parent_id": 53,
+      "allows_inventory": true
     },
     {
       "id": 392,
       "type": "boardgames",
       "label": "Warhammer 40k & Wargames",
-      "parent_id": 202
+      "parent_id": 202,
+      "allows_inventory": true
     },
     {
       "id": 393,
       "type": "disneyana_clothing",
       "label": "Disney Clothing",
-      "parent_id": 162
+      "parent_id": 162,
+      "allows_inventory": true
     },
     {
       "id": 394,
       "type": "disneyana_accessories",
       "label": "Disney Accessories",
-      "parent_id": 162
+      "parent_id": 162,
+      "allows_inventory": true
     },
     {
       "id": 395,
       "type": "disneyana_art",
       "label": "Disney Original & Animation Art",
-      "parent_id": 162
+      "parent_id": 162,
+      "allows_inventory": true
     },
     {
       "id": 396,
       "type": "fine_precious_metals_jewelry",
       "label": "Fine & Precious Metals",
-      "parent_id": 201
+      "parent_id": 201,
+      "allows_inventory": true
     },
     {
       "id": 397,
       "type": "vintage_costume_jewelry",
       "label": "Vintage & Antique Jewelry",
-      "parent_id": 201
+      "parent_id": 201,
+      "allows_inventory": true
     },
     {
       "id": 398,
       "type": "contemporary_costume_jewelry",
       "label": "Contemporary Costume",
-      "parent_id": 201
+      "parent_id": 201,
+      "allows_inventory": true
     },
     {
       "id": 399,
       "type": "modern_games",
       "label": "Modern Games",
-      "parent_id": 155
+      "parent_id": 155,
+      "allows_inventory": true
     },
     {
       "id": 400,
       "type": "guides_and_manuals",
       "label": "Strategy Guides, Manuals, Replacement Cases",
-      "parent_id": 155
+      "parent_id": 155,
+      "allows_inventory": true
     },
     {
       "id": 467,
       "type": "star_wars_cards",
       "label": "Star Wars Cards",
-      "parent_id": 2048
+      "parent_id": 2048,
+      "allows_inventory": true
     },
     {
       "id": 500,
       "type": "kryptik_cards",
       "label": "Kryptik",
-      "parent_id": 149
+      "parent_id": 149,
+      "allows_inventory": true
     },
     {
       "id": 567,
       "type": "one_piece_cards",
       "label": "One Piece Cards",
-      "parent_id": 149
+      "parent_id": 149,
+      "allows_inventory": true
     },
     {
       "id": 568,
       "type": "handcrafted_artisan_jewelry",
       "label": "Handcrafted & Artisan Jewelry",
-      "parent_id": 201
+      "parent_id": 201,
+      "allows_inventory": true
     },
     {
       "id": 569,
       "type": "football_memorabilia",
       "label": "Football Memorabilia",
-      "parent_id": 15
+      "parent_id": 15,
+      "allows_inventory": false
     },
     {
       "id": 570,
       "type": "basketball_memorabilia",
       "label": "Basketball Memorabilia",
-      "parent_id": 15
+      "parent_id": 15,
+      "allows_inventory": false
     },
     {
       "id": 571,
       "type": "baseball_memorabilia",
       "label": "Baseball Memorabilia",
-      "parent_id": 15
+      "parent_id": 15,
+      "allows_inventory": false
     },
     {
       "id": 572,
       "type": "other_memorabilia",
       "label": "Other Sports Memorabilia",
-      "parent_id": 15
+      "parent_id": 15,
+      "allows_inventory": true
     },
     {
       "id": 573,
       "type": "soccer_breaks",
       "label": "Soccer Breaks",
-      "parent_id": 96
+      "parent_id": 96,
+      "allows_inventory": true
     },
     {
       "id": 574,
       "type": "soccer_singles",
       "label": "Soccer Singles",
-      "parent_id": 96
+      "parent_id": 96,
+      "allows_inventory": true
     },
     {
       "id": 575,
       "type": "soccer_mystery",
       "label": "Soccer Mystery",
-      "parent_id": 96
+      "parent_id": 96,
+      "allows_inventory": true
     },
     {
       "id": 576,
       "type": "dc_figures",
       "label": "DC Figures",
-      "parent_id": 53
+      "parent_id": 53,
+      "allows_inventory": true
     },
     {
       "id": 577,
       "type": "storage_units",
       "label": "Storage Unit Finds",
-      "parent_id": 164
+      "parent_id": 164,
+      "allows_inventory": true
     },
     {
       "id": 580,
       "type": "electronics_other",
       "label": "Other Electronics",
-      "parent_id": 347
+      "parent_id": 347,
+      "allows_inventory": true
     },
     {
       "id": 581,
       "type": "yard_sales",
       "label": "Garage Sales",
-      "parent_id": 164
+      "parent_id": 164,
+      "allows_inventory": true
     },
     {
       "id": 582,
       "type": "antiques_vintage_ephemera",
       "label": "Antiques, Vintage & Ephemera",
-      "parent_id": null
+      "parent_id": null,
+      "allows_inventory": false
     },
     {
       "id": 583,
       "type": "antiques",
       "label": "Antiques",
-      "parent_id": 582
+      "parent_id": 582,
+      "allows_inventory": true
     },
     {
       "id": 584,
       "type": "quilting_sewing",
       "label": "Quilting, Sewing & Fabric Supplies",
-      "parent_id": 1080
+      "parent_id": 1080,
+      "allows_inventory": true
     },
     {
       "id": 585,
       "type": "baseball_breaks",
       "label": "Baseball Breaks",
-      "parent_id": 91
+      "parent_id": 91,
+      "allows_inventory": true
     },
     {
       "id": 586,
       "type": "baseball_singles",
       "label": "Baseball Singles",
-      "parent_id": 91
+      "parent_id": 91,
+      "allows_inventory": true
     },
     {
       "id": 587,
       "type": "baseball_mystery",
       "label": "Baseball Mystery",
-      "parent_id": 91
+      "parent_id": 91,
+      "allows_inventory": true
     },
     {
       "id": 588,
       "type": "mens_jewelry",
       "label": "Men's Jewelry",
-      "parent_id": 201
+      "parent_id": 201,
+      "allows_inventory": true
     },
     {
       "id": 589,
       "type": "football_breaks",
       "label": "Football Breaks",
-      "parent_id": 135
+      "parent_id": 135,
+      "allows_inventory": true
     },
     {
       "id": 590,
       "type": "football_singles",
       "label": "Football Singles",
-      "parent_id": 135
+      "parent_id": 135,
+      "allows_inventory": true
     },
     {
       "id": 591,
       "type": "football_mystery",
       "label": "Football Mystery",
-      "parent_id": 135
+      "parent_id": 135,
+      "allows_inventory": true
     },
     {
       "id": 592,
       "type": "basketball_breaks",
       "label": "Basketball Breaks",
-      "parent_id": 153
+      "parent_id": 153,
+      "allows_inventory": true
     },
     {
       "id": 593,
       "type": "basketball_singles",
       "label": "Basketball Singles",
-      "parent_id": 153
+      "parent_id": 153,
+      "allows_inventory": true
     },
     {
       "id": 594,
       "type": "basketball_mystery",
       "label": "Basketball Mystery",
-      "parent_id": 153
+      "parent_id": 153,
+      "allows_inventory": true
     },
     {
       "id": 595,
       "type": "ufc_breaks",
       "label": "UFC Breaks",
-      "parent_id": 134
+      "parent_id": 134,
+      "allows_inventory": true
     },
     {
       "id": 596,
       "type": "ufc_singles",
       "label": "UFC Singles",
-      "parent_id": 134
+      "parent_id": 134,
+      "allows_inventory": true
     },
     {
       "id": 597,
       "type": "ufc_mystery",
       "label": "UFC Mystery",
-      "parent_id": 134
+      "parent_id": 134,
+      "allows_inventory": true
     },
     {
       "id": 598,
       "type": "hockey_breaks",
       "label": "Hockey Breaks",
-      "parent_id": 161
+      "parent_id": 161,
+      "allows_inventory": true
     },
     {
       "id": 599,
       "type": "hockey_singles",
       "label": "Hockey Singles",
-      "parent_id": 161
+      "parent_id": 161,
+      "allows_inventory": true
     },
     {
       "id": 600,
       "type": "hockey_mystery",
       "label": "Hockey Mystery",
-      "parent_id": 161
+      "parent_id": 161,
+      "allows_inventory": true
     },
     {
       "id": 601,
       "type": "wrestling_breaks",
       "label": "Wrestling Breaks",
-      "parent_id": 136
+      "parent_id": 136,
+      "allows_inventory": true
     },
     {
       "id": 602,
       "type": "wrestling_singles",
       "label": "Wrestling Singles",
-      "parent_id": 136
+      "parent_id": 136,
+      "allows_inventory": true
     },
     {
       "id": 603,
       "type": "wrestling_mystery",
       "label": "Wrestling Mystery",
-      "parent_id": 136
+      "parent_id": 136,
+      "allows_inventory": true
     },
     {
       "id": 604,
       "type": "motorsport",
       "label": "Motorsport Cards",
-      "parent_id": 3
+      "parent_id": 3,
+      "allows_inventory": false
     },
     {
       "id": 605,
       "type": "nascar",
       "label": "NASCAR Cards",
-      "parent_id": 604
+      "parent_id": 604,
+      "allows_inventory": false
     },
     {
       "id": 606,
       "type": "f1_breaks",
       "label": "F1 Breaks",
-      "parent_id": 137
+      "parent_id": 137,
+      "allows_inventory": true
     },
     {
       "id": 607,
       "type": "f1_singles",
       "label": "F1 Singles",
-      "parent_id": 137
+      "parent_id": 137,
+      "allows_inventory": true
     },
     {
       "id": 608,
       "type": "f1_mystery",
       "label": "F1 Mystery",
-      "parent_id": 137
+      "parent_id": 137,
+      "allows_inventory": true
     },
     {
       "id": 609,
       "type": "nascar_breaks",
       "label": "NASCAR Breaks",
-      "parent_id": 605
+      "parent_id": 605,
+      "allows_inventory": true
     },
     {
       "id": 610,
       "type": "nascar_singles",
       "label": "NASCAR Singles",
-      "parent_id": 605
+      "parent_id": 605,
+      "allows_inventory": true
     },
     {
       "id": 611,
       "type": "nascar_mystery",
       "label": "NASCAR Mystery",
-      "parent_id": 605
+      "parent_id": 605,
+      "allows_inventory": true
     },
     {
       "id": 613,
       "type": "fastfood_cereal",
       "label": "Fast Food & Cereal Toys",
-      "parent_id": 140
+      "parent_id": 140,
+      "allows_inventory": true
     },
     {
       "id": 614,
       "type": "vintage_toys",
       "label": "Vintage Toys",
-      "parent_id": 140
+      "parent_id": 140,
+      "allows_inventory": true
     },
     {
       "id": 615,
       "type": "models_kits",
       "label": "Models & Kits",
-      "parent_id": 140
+      "parent_id": 140,
+      "allows_inventory": true
     },
     {
       "id": 618,
       "type": "makeup",
       "label": "Makeup & Skincare",
-      "parent_id": 253
+      "parent_id": 253,
+      "allows_inventory": true
     },
     {
       "id": 620,
       "type": "other_beauty",
       "label": "Other Beauty",
-      "parent_id": 253
+      "parent_id": 253,
+      "allows_inventory": true
     },
     {
       "id": 621,
       "type": "snacks_candy",
       "label": "Snacks",
-      "parent_id": 198
+      "parent_id": 198,
+      "allows_inventory": true
     },
     {
       "id": 622,
       "type": "coffee_tea_softdrinks",
       "label": "Coffee & Tea",
-      "parent_id": 198
+      "parent_id": 198,
+      "allows_inventory": true
     },
     {
       "id": 623,
       "type": "other_food_drink",
       "label": "Other Food & Drink",
-      "parent_id": 198
+      "parent_id": 198,
+      "allows_inventory": true
     },
     {
       "id": 624,
       "type": "kitchen_dining",
       "label": "Kitchen & Dining",
-      "parent_id": 254
+      "parent_id": 254,
+      "allows_inventory": true
     },
     {
       "id": 625,
       "type": "plants_garden",
       "label": "Plants & Garden",
-      "parent_id": 254
+      "parent_id": 254,
+      "allows_inventory": true
     },
     {
       "id": 626,
       "type": "home_decor",
       "label": "Home Decor",
-      "parent_id": 254
+      "parent_id": 254,
+      "allows_inventory": true
     },
     {
       "id": 627,
       "type": "tools",
       "label": "Hand Tools",
-      "parent_id": 254
+      "parent_id": 254,
+      "allows_inventory": true
     },
     {
       "id": 628,
       "type": "pet_supplies",
       "label": "Pet Supplies",
-      "parent_id": null
+      "parent_id": null,
+      "allows_inventory": false
     },
     {
       "id": 629,
       "type": "other_home_garden",
       "label": "Other Home & Garden",
-      "parent_id": 254
+      "parent_id": 254,
+      "allows_inventory": true
     },
     {
       "id": 630,
       "type": "funko_pop_figures",
       "label": "Funko Pop!",
-      "parent_id": 1
+      "parent_id": 1,
+      "allows_inventory": true
     },
     {
       "id": 631,
       "type": "other_funko",
       "label": "Other Funko Products",
-      "parent_id": 1
+      "parent_id": 1,
+      "allows_inventory": true
     },
     {
       "id": 632,
       "type": "minifigures",
       "label": "LEGO Minifigures",
-      "parent_id": 10
+      "parent_id": 10,
+      "allows_inventory": true
     },
     {
       "id": 633,
       "type": "lego_sets",
       "label": "LEGO Sets",
-      "parent_id": 10
+      "parent_id": 10,
+      "allows_inventory": true
     },
     {
       "id": 634,
       "type": "lego_other_building_toys",
       "label": "Other LEGO",
-      "parent_id": 10
+      "parent_id": 10,
+      "allows_inventory": true
     },
     {
       "id": 635,
       "type": "diecast_toys_cars",
       "label": "Diecast Cars",
-      "parent_id": 55
+      "parent_id": 55,
+      "allows_inventory": true
     },
     {
       "id": 636,
       "type": "other_diecast",
       "label": "Other Diecast",
-      "parent_id": 55
+      "parent_id": 55,
+      "allows_inventory": true
     },
     {
       "id": 637,
       "type": "slot_cars",
       "label": "Slot Cars",
-      "parent_id": 140
+      "parent_id": 140,
+      "allows_inventory": true
     },
     {
       "id": 638,
       "type": "remote_control_vehicles_and_toys",
       "label": "Radio Control Vehicles & Toys",
-      "parent_id": 140
+      "parent_id": 140,
+      "allows_inventory": true
     },
     {
       "id": 639,
       "type": "squishmallows",
       "label": "Squishmallows",
-      "parent_id": 160
+      "parent_id": 160,
+      "allows_inventory": true
     },
     {
       "id": 640,
       "type": "other_plush",
       "label": "Other Plush",
-      "parent_id": 160
+      "parent_id": 160,
+      "allows_inventory": true
     },
     {
       "id": 641,
       "type": "monster_high",
       "label": "Monster High",
-      "parent_id": 235
+      "parent_id": 235,
+      "allows_inventory": true
     },
     {
       "id": 642,
       "type": "barbie",
       "label": "Barbie",
-      "parent_id": 235
+      "parent_id": 235,
+      "allows_inventory": true
     },
     {
       "id": 643,
       "type": "other_dolls",
       "label": "Other Dolls",
-      "parent_id": 235
+      "parent_id": 235,
+      "allows_inventory": true
     },
     {
       "id": 644,
       "type": "bearbrick",
       "label": "Bearbrick",
-      "parent_id": 5
+      "parent_id": 5,
+      "allows_inventory": true
     },
     {
       "id": 645,
       "type": "other_designer_toys",
       "label": "Other Designer Toys",
-      "parent_id": 5
+      "parent_id": 5,
+      "allows_inventory": true
     },
     {
       "id": 646,
       "type": "all_tabletop_games",
       "label": "Board Games",
-      "parent_id": 202
+      "parent_id": 202,
+      "allows_inventory": true
     },
     {
       "id": 647,
       "type": "puzzles",
       "label": "Puzzles",
-      "parent_id": 202
+      "parent_id": 202,
+      "allows_inventory": true
     },
     {
       "id": 648,
       "type": "other_tabletop_games",
       "label": "Other Tabletop Games",
-      "parent_id": 202
+      "parent_id": 202,
+      "allows_inventory": true
     },
     {
       "id": 649,
       "type": "nails",
       "label": "Nails",
-      "parent_id": 253
+      "parent_id": 253,
+      "allows_inventory": true
     },
     {
       "id": 650,
       "type": "knitting_and_crochet",
       "label": "Knitting & Crochet Supplies",
-      "parent_id": 1080
+      "parent_id": 1080,
+      "allows_inventory": true
     },
     {
       "id": 651,
       "type": "fishing_gear",
       "label": "Fishing",
-      "parent_id": 1805
+      "parent_id": 1805,
+      "allows_inventory": false
     },
     {
       "id": 652,
       "type": "golf_gear",
       "label": "Golf",
-      "parent_id": 266
+      "parent_id": 266,
+      "allows_inventory": false
     },
     {
       "id": 654,
       "type": "mens_fashion",
       "label": "Men's Fashion",
-      "parent_id": null
+      "parent_id": null,
+      "allows_inventory": false
     },
     {
       "id": 655,
       "type": "mens_other_fashion",
       "label": "Other Men's Fashion",
-      "parent_id": 654
+      "parent_id": 654,
+      "allows_inventory": true
     },
     {
       "id": 656,
       "type": "womens_fashion",
       "label": "Women's Fashion",
-      "parent_id": null
+      "parent_id": null,
+      "allows_inventory": false
     },
     {
       "id": 657,
       "type": "womens_vintage",
       "label": "Women's Vintage Clothing",
-      "parent_id": 656
+      "parent_id": 656,
+      "allows_inventory": false
     },
     {
       "id": 658,
       "type": "y2k",
       "label": "Y2K",
-      "parent_id": 657
+      "parent_id": 657,
+      "allows_inventory": true
     },
     {
       "id": 659,
       "type": "true_vintage",
       "label": "Women's True Vintage",
-      "parent_id": 657
+      "parent_id": 657,
+      "allows_inventory": true
     },
     {
       "id": 660,
       "type": "womens_activewear",
       "label": "Women's Activewear",
-      "parent_id": 656
+      "parent_id": 656,
+      "allows_inventory": true
     },
     {
       "id": 661,
       "type": "dvds",
       "label": "DVDs",
-      "parent_id": 156
+      "parent_id": 156,
+      "allows_inventory": true
     },
     {
       "id": 662,
       "type": "vhs",
       "label": "VHS",
-      "parent_id": 156
+      "parent_id": 156,
+      "allows_inventory": true
     },
     {
       "id": 663,
       "type": "movie_memorabilia",
       "label": "Movie Memorabilia",
-      "parent_id": 156
+      "parent_id": 156,
+      "allows_inventory": true
     },
     {
       "id": 664,
       "type": "crystals",
       "label": "Crystals & Gems",
-      "parent_id": 163
+      "parent_id": 163,
+      "allows_inventory": true
     },
     {
       "id": 665,
       "type": "fossils",
       "label": "Fossils",
-      "parent_id": 163
+      "parent_id": 163,
+      "allows_inventory": true
     },
     {
       "id": 666,
       "type": "other_rocks",
       "label": "Other Rocks",
-      "parent_id": 163
+      "parent_id": 163,
+      "allows_inventory": true
     },
     {
       "id": 667,
       "type": "camping_and_hiking",
       "label": "Other Outdoors Gear",
-      "parent_id": 1805
+      "parent_id": 1805,
+      "allows_inventory": true
     },
     {
       "id": 668,
       "type": "disc_golf",
       "label": "Disc Golf",
-      "parent_id": 266
+      "parent_id": 266,
+      "allows_inventory": true
     },
     {
       "id": 669,
       "type": "magazines",
       "label": "Magazines",
-      "parent_id": 141
+      "parent_id": 141,
+      "allows_inventory": true
     },
     {
       "id": 673,
       "type": "antiquarian_and_collectible_books",
       "label": "Rare & Vintage Books",
-      "parent_id": 141
+      "parent_id": 141,
+      "allows_inventory": true
     },
     {
       "id": 707,
       "type": "disney_cards",
       "label": "Disney Cards",
-      "parent_id": 2048
+      "parent_id": 2048,
+      "allows_inventory": true
     },
     {
       "id": 740,
       "type": "fragrances",
       "label": "Fragrances",
-      "parent_id": 253
+      "parent_id": 253,
+      "allows_inventory": true
     },
     {
       "id": 741,
       "type": "hair_products",
       "label": "Hair Products",
-      "parent_id": 253
+      "parent_id": 253,
+      "allows_inventory": true
     },
     {
       "id": 774,
       "type": "handmade_fashion_accessories",
       "label": "Handmade Clothing & Accessories",
-      "parent_id": 1078
+      "parent_id": 1078,
+      "allows_inventory": true
     },
     {
       "id": 808,
       "type": "soccer_jerseys",
       "label": "Soccer Memorabilia",
-      "parent_id": 15
+      "parent_id": 15,
+      "allows_inventory": false
     },
     {
       "id": 841,
       "type": "blu_ray",
       "label": "Blu-ray",
-      "parent_id": 156
+      "parent_id": 156,
+      "allows_inventory": true
     },
     {
       "id": 907,
       "type": "hunting",
       "label": "Knives & Hunting",
-      "parent_id": null
+      "parent_id": null,
+      "allows_inventory": true
     },
     {
       "id": 973,
       "type": "pokemon_plush",
       "label": "Pokémon Plush",
-      "parent_id": 160
+      "parent_id": 160,
+      "allows_inventory": true
     },
     {
       "id": 974,
       "type": "beanie_babies_and_boos",
       "label": "Beanie Babies & Boos",
-      "parent_id": 160
+      "parent_id": 160,
+      "allows_inventory": true
     },
     {
       "id": 975,
       "type": "disney_plush",
       "label": "Disney Plush",
-      "parent_id": 160
+      "parent_id": 160,
+      "allows_inventory": true
     },
     {
       "id": 1043,
       "type": "winter_sports",
       "label": "Winter Sports",
-      "parent_id": 1805
+      "parent_id": 1805,
+      "allows_inventory": true
     },
     {
       "id": 1044,
       "type": "cycling",
       "label": "Cycling",
-      "parent_id": 266
+      "parent_id": 266,
+      "allows_inventory": true
     },
     {
       "id": 1077,
       "type": "craft_supplies",
       "label": "Craft Supplies",
-      "parent_id": 199
+      "parent_id": 199,
+      "allows_inventory": false
     },
     {
       "id": 1078,
       "type": "handmade_items",
       "label": "Handmade Items",
-      "parent_id": 199
+      "parent_id": 199,
+      "allows_inventory": false
     },
     {
       "id": 1080,
       "type": "fiber_arts_and_sewing_supplies",
       "label": "Fiber Arts & Sewing Supplies",
-      "parent_id": 1077
+      "parent_id": 1077,
+      "allows_inventory": false
     },
     {
       "id": 1081,
       "type": "new_and_used_books",
       "label": "New & Used Books",
-      "parent_id": 141
+      "parent_id": 141,
+      "allows_inventory": true
     },
     {
       "id": 1114,
       "type": "car_parts",
       "label": "Car Parts",
-      "parent_id": null
+      "parent_id": null,
+      "allows_inventory": true
     },
     {
       "id": 1147,
       "type": "candles_and_aromatherapy",
       "label": "Candles & Aromatherapy",
-      "parent_id": null
+      "parent_id": null,
+      "allows_inventory": true
     },
     {
       "id": 1180,
       "type": "golf_clubs",
       "label": "Golf Clubs",
-      "parent_id": 652
+      "parent_id": 652,
+      "allows_inventory": true
     },
     {
       "id": 1181,
       "type": "golf_balls",
       "label": "Golf Balls",
-      "parent_id": 652
+      "parent_id": 652,
+      "allows_inventory": true
     },
     {
       "id": 1182,
       "type": "other_golf_items",
       "label": "Other Golf Items",
-      "parent_id": 652
+      "parent_id": 652,
+      "allows_inventory": true
     },
     {
       "id": 1183,
       "type": "golf_bags",
       "label": "Golf Bags",
-      "parent_id": 652
+      "parent_id": 652,
+      "allows_inventory": true
     },
     {
       "id": 1184,
       "type": "golf_apparel",
       "label": "Golf Apparel",
-      "parent_id": 652
+      "parent_id": 652,
+      "allows_inventory": true
     },
     {
       "id": 1185,
       "type": "golf_accessories",
       "label": "Golf Accessories",
-      "parent_id": 652
+      "parent_id": 652,
+      "allows_inventory": true
     },
     {
       "id": 1186,
       "type": "golf_shoes",
       "label": "Golf Shoes",
-      "parent_id": 652
+      "parent_id": 652,
+      "allows_inventory": true
     },
     {
       "id": 1219,
       "type": "football_mem_footballs",
       "label": "Footballs",
-      "parent_id": 569
+      "parent_id": 569,
+      "allows_inventory": true
     },
     {
       "id": 1220,
       "type": "football_mem_jerseys",
       "label": "Football Jerseys",
-      "parent_id": 569
+      "parent_id": 569,
+      "allows_inventory": true
     },
     {
       "id": 1221,
       "type": "football_mem_helmets",
       "label": "Helmets",
-      "parent_id": 569
+      "parent_id": 569,
+      "allows_inventory": true
     },
     {
       "id": 1222,
       "type": "football_mem_photos",
       "label": "Football Photos",
-      "parent_id": 569
+      "parent_id": 569,
+      "allows_inventory": true
     },
     {
       "id": 1223,
       "type": "football_mem_other",
       "label": "Other Football Memorabilia",
-      "parent_id": 569
+      "parent_id": 569,
+      "allows_inventory": true
     },
     {
       "id": 1224,
       "type": "basketball_mem_basketballs",
       "label": "Basketballs",
-      "parent_id": 570
+      "parent_id": 570,
+      "allows_inventory": true
     },
     {
       "id": 1225,
       "type": "basketball_mem_other",
       "label": "Other Basketball Memorabilia",
-      "parent_id": 570
+      "parent_id": 570,
+      "allows_inventory": true
     },
     {
       "id": 1226,
       "type": "basketball_mem_jerseys",
       "label": "Basketball Jerseys",
-      "parent_id": 570
+      "parent_id": 570,
+      "allows_inventory": true
     },
     {
       "id": 1227,
       "type": "basketball_mem_photos",
       "label": "Basketball Photos",
-      "parent_id": 570
+      "parent_id": 570,
+      "allows_inventory": true
     },
     {
       "id": 1228,
       "type": "baseball_mem_baseballs",
       "label": "Baseballs",
-      "parent_id": 571
+      "parent_id": 571,
+      "allows_inventory": true
     },
     {
       "id": 1229,
       "type": "baseball_mem_jerseys",
       "label": "Baseball Jerseys",
-      "parent_id": 571
+      "parent_id": 571,
+      "allows_inventory": true
     },
     {
       "id": 1230,
       "type": "baseball_mem_photos",
       "label": "Baseball Photos",
-      "parent_id": 571
+      "parent_id": 571,
+      "allows_inventory": true
     },
     {
       "id": 1231,
       "type": "baseball_mem_bats",
       "label": "Baseball Bats",
-      "parent_id": 571
+      "parent_id": 571,
+      "allows_inventory": true
     },
     {
       "id": 1232,
       "type": "baseball_mem_other",
       "label": "Other Baseball Memorabilia",
-      "parent_id": 571
+      "parent_id": 571,
+      "allows_inventory": true
     },
     {
       "id": 1233,
       "type": "soccer_mem_soccer_balls",
       "label": "Soccer Balls",
-      "parent_id": 808
+      "parent_id": 808,
+      "allows_inventory": true
     },
     {
       "id": 1234,
       "type": "soccer_mem_jerseys",
       "label": "Soccer Jerseys",
-      "parent_id": 808
+      "parent_id": 808,
+      "allows_inventory": true
     },
     {
       "id": 1235,
       "type": "soccer_mem_photos",
       "label": "Soccer Photos",
-      "parent_id": 808
+      "parent_id": 808,
+      "allows_inventory": true
     },
     {
       "id": 1236,
       "type": "soccer_mem_other",
       "label": "Other Soccer Memorabilia",
-      "parent_id": 808
+      "parent_id": 808,
+      "allows_inventory": true
     },
     {
       "id": 1237,
       "type": "fishing_reels",
       "label": "Reels",
-      "parent_id": 651
+      "parent_id": 651,
+      "allows_inventory": true
     },
     {
       "id": 1238,
       "type": "fishing_rods",
       "label": "Rods",
-      "parent_id": 651
+      "parent_id": 651,
+      "allows_inventory": true
     },
     {
       "id": 1239,
       "type": "fishing_lures",
       "label": "Lures",
-      "parent_id": 651
+      "parent_id": 651,
+      "allows_inventory": true
     },
     {
       "id": 1240,
       "type": "fishing_other",
       "label": "Other Fishing Equipment",
-      "parent_id": 651
+      "parent_id": 651,
+      "allows_inventory": true
     },
     {
       "id": 1339,
       "type": "veefriends",
       "label": "VeeFriends",
-      "parent_id": 149
+      "parent_id": 149,
+      "allows_inventory": true
     },
     {
       "id": 1372,
       "type": "holiday_decor",
       "label": "Holiday Decor",
-      "parent_id": 254
+      "parent_id": 254,
+      "allows_inventory": true
     },
     {
       "id": 1405,
       "type": "sorcery_contested_realm",
       "label": "Sorcery: Contested Realm",
-      "parent_id": 149
+      "parent_id": 149,
+      "allows_inventory": true
     },
     {
       "id": 1438,
       "type": "stickers",
       "label": "Stickers",
-      "parent_id": 199
+      "parent_id": 199,
+      "allows_inventory": true
     },
     {
       "id": 1471,
       "type": "union_arena",
       "label": "Union Arena",
-      "parent_id": 149
+      "parent_id": 149,
+      "allows_inventory": true
     },
     {
       "id": 1504,
       "type": "pickleball",
       "label": "Racquet Sports",
-      "parent_id": 266
+      "parent_id": 266,
+      "allows_inventory": true
     },
     {
       "id": 1505,
       "type": "other_sports_equipment",
       "label": "Other Sporting Goods",
-      "parent_id": 266
+      "parent_id": 266,
+      "allows_inventory": true
     },
     {
       "id": 1571,
       "type": "sonny_angel_toys",
       "label": "Sonny Angel and Smiski",
-      "parent_id": 140
+      "parent_id": 140,
+      "allows_inventory": true
     },
     {
       "id": 1572,
       "type": "pop_mart_toys",
       "label": "Labubu & Blindboxes",
-      "parent_id": 140
+      "parent_id": 140,
+      "allows_inventory": true
     },
     {
       "id": 1605,
       "type": "sports_jerseys",
       "label": "Sports Jerseys",
-      "parent_id": 654
+      "parent_id": 654,
+      "allows_inventory": true
     },
     {
       "id": 1638,
       "type": "pallets",
       "label": "Pallets",
-      "parent_id": null
+      "parent_id": null,
+      "allows_inventory": true
     },
     {
       "id": 1704,
       "type": "electric_tools",
       "label": "Tools",
-      "parent_id": 347
+      "parent_id": 347,
+      "allows_inventory": true
     },
     {
       "id": 1705,
       "type": "woodworking",
       "label": "Woodworking",
-      "parent_id": 199
+      "parent_id": 199,
+      "allows_inventory": true
     },
     {
       "id": 1738,
       "type": "case_packs_and_bundles",
       "label": "Case Packs & Bundles",
-      "parent_id": null
+      "parent_id": null,
+      "allows_inventory": true
     },
     {
       "id": 1772,
       "type": "camping",
       "label": "Camping and Hiking Gear",
-      "parent_id": 1805
+      "parent_id": 1805,
+      "allows_inventory": true
     },
     {
       "id": 1805,
       "type": "outdoor_gear",
       "label": "Outdoor Gear",
-      "parent_id": null
+      "parent_id": null,
+      "allows_inventory": false
     },
     {
       "id": 1806,
       "type": "afl_cards",
       "label": "AFL Cards",
-      "parent_id": 3
+      "parent_id": 3,
+      "allows_inventory": false
     },
     {
       "id": 1807,
       "type": "afl_breaks",
       "label": "AFL Breaks",
-      "parent_id": 1806
+      "parent_id": 1806,
+      "allows_inventory": true
     },
     {
       "id": 1808,
       "type": "afl_singles",
       "label": "AFL Singles",
-      "parent_id": 1806
+      "parent_id": 1806,
+      "allows_inventory": true
     },
     {
       "id": 1809,
       "type": "afl_mystery",
       "label": "AFL Mystery",
-      "parent_id": 1806
+      "parent_id": 1806,
+      "allows_inventory": true
     },
     {
       "id": 1842,
       "type": "womens_shoes",
       "label": "Women's Shoes",
-      "parent_id": 656
+      "parent_id": 656,
+      "allows_inventory": true
     },
     {
       "id": 1875,
       "type": "hydration",
       "label": "Hydration",
-      "parent_id": 254
+      "parent_id": 254,
+      "allows_inventory": true
     },
     {
       "id": 1908,
       "type": "thrilljoy",
       "label": "Thrilljoy",
-      "parent_id": 140
+      "parent_id": 140,
+      "allows_inventory": true
     },
     {
       "id": 1941,
       "type": "baked_goods",
       "label": "Baked Goods",
-      "parent_id": 198
+      "parent_id": 198,
+      "allows_inventory": true
     },
     {
       "id": 1942,
       "type": "fresh_produce",
       "label": "Fresh Produce",
-      "parent_id": 198
+      "parent_id": 198,
+      "allows_inventory": true
     },
     {
       "id": 1975,
       "type": "sporting_gear_football",
       "label": "Football",
-      "parent_id": 266
+      "parent_id": 266,
+      "allows_inventory": true
     },
     {
       "id": 1976,
       "type": "sporting_gear_soccer",
       "label": "Soccer",
-      "parent_id": 266
+      "parent_id": 266,
+      "allows_inventory": true
     },
     {
       "id": 1977,
       "type": "sporting_gear_skateboarding",
       "label": "Skateboarding",
-      "parent_id": 266
+      "parent_id": 266,
+      "allows_inventory": true
     },
     {
       "id": 1978,
       "type": "pet_supplies_dogs_cats",
       "label": "Pet Supplies ",
-      "parent_id": 628
+      "parent_id": 628,
+      "allows_inventory": true
     },
     {
       "id": 1979,
       "type": "pet_supplies_fish",
       "label": "Pet Fish",
-      "parent_id": 628
+      "parent_id": 628,
+      "allows_inventory": true
     },
     {
       "id": 1980,
       "type": "pet_supplies_other",
       "label": "Other Pets",
-      "parent_id": 628
+      "parent_id": 628,
+      "allows_inventory": true
     },
     {
       "id": 2013,
       "type": "lorcana_cards",
       "label": "Lorcana",
-      "parent_id": 149
+      "parent_id": 149,
+      "allows_inventory": true
     },
     {
       "id": 2014,
       "type": "gundam_cards",
       "label": "Gundam",
-      "parent_id": 149
+      "parent_id": 149,
+      "allows_inventory": true
     },
     {
       "id": 2015,
       "type": "riftbound_cards",
       "label": "Riftbound",
-      "parent_id": 149
+      "parent_id": 149,
+      "allows_inventory": true
     },
     {
       "id": 2048,
       "type": "entertainment_cards",
       "label": "Entertainment Cards",
-      "parent_id": null
+      "parent_id": null,
+      "allows_inventory": false
     },
     {
       "id": 2049,
       "type": "tv_and_movie_cards",
       "label": "TV & Movie Cards",
-      "parent_id": 2048
+      "parent_id": 2048,
+      "allows_inventory": true
     },
     {
       "id": 2050,
       "type": "other_entertainment_cards",
       "label": "Other Entertainment Cards",
-      "parent_id": 2048
+      "parent_id": 2048,
+      "allows_inventory": true
     },
     {
       "id": 2083,
       "type": "supplements",
       "label": "Supplements",
-      "parent_id": 198
+      "parent_id": 198,
+      "allows_inventory": true
     },
     {
       "id": 2116,
       "type": "sporting_gear_baseball",
       "label": "Baseball & Softball",
-      "parent_id": 266
+      "parent_id": 266,
+      "allows_inventory": true
     },
     {
       "id": 2149,
       "type": "sunglasses_eyewear",
       "label": "Sunglasses & Eyewear",
-      "parent_id": 239
+      "parent_id": 239,
+      "allows_inventory": true
     },
     {
       "id": 2182,
       "type": "fresh_specialty_food",
       "label": "Fresh & Specialty Food",
-      "parent_id": 198
+      "parent_id": 198,
+      "allows_inventory": true
     },
     {
       "id": 2215,
       "type": "baby_and_kids_toys",
       "label": "Baby & Kids Toys ",
-      "parent_id": 140
+      "parent_id": 140,
+      "allows_inventory": true
     },
     {
       "id": 2216,
       "type": "littlest_pet_shop",
       "label": "Littlest Pet Shop",
-      "parent_id": 140
+      "parent_id": 140,
+      "allows_inventory": true
     },
     {
       "id": 2249,
       "type": "headphones_and_speakers",
       "label": "Headphones and Speakers",
-      "parent_id": 347
+      "parent_id": 347,
+      "allows_inventory": true
     },
     {
       "id": 2282,
       "type": "heat_transfers_and_wraps",
       "label": "Heat Transfers & Wraps",
-      "parent_id": 199
+      "parent_id": 199,
+      "allows_inventory": true
     },
     {
       "id": 2283,
       "type": "scrapbooks",
       "label": "Scrapbooks",
-      "parent_id": 199
+      "parent_id": 199,
+      "allows_inventory": true
     },
     {
       "id": 2284,
       "type": "embroidery_and_needlework",
       "label": "Embroidery and Needlework",
-      "parent_id": 199
+      "parent_id": 199,
+      "allows_inventory": true
     },
     {
       "id": 2285,
       "type": "3d_prints",
       "label": "3D Prints",
-      "parent_id": 199
+      "parent_id": 199,
+      "allows_inventory": true
     },
     {
       "id": 2286,
       "type": "stamp_blocks",
       "label": "Craft Stamps",
-      "parent_id": 199
+      "parent_id": 199,
+      "allows_inventory": true
     },
     {
       "id": 2319,
       "type": "bath_body_essentials",
       "label": "Bath & Body Essentials",
-      "parent_id": 253
+      "parent_id": 253,
+      "allows_inventory": true
     },
     {
       "id": 2320,
       "type": "mens_grooming",
       "label": "Men's Grooming",
-      "parent_id": 253
+      "parent_id": 253,
+      "allows_inventory": true
     },
     {
       "id": 2353,
       "type": "resin_art",
       "label": "Resin Art",
-      "parent_id": 199
+      "parent_id": 199,
+      "allows_inventory": true
     },
     {
       "id": 2354,
       "type": "glass_art",
       "label": "Glass Art",
-      "parent_id": 199
+      "parent_id": 199,
+      "allows_inventory": true
     },
     {
       "id": 2387,
       "type": "jewelry_making_supplies",
       "label": "Jewelry Making Supplies",
-      "parent_id": 1077
+      "parent_id": 1077,
+      "allows_inventory": true
     },
     {
       "id": 2420,
       "type": "horse_tack",
       "label": "Horse Tack",
-      "parent_id": 628
+      "parent_id": 628,
+      "allows_inventory": true
     },
     {
       "id": 2421,
       "type": "chocolate",
       "label": "Chocolate",
-      "parent_id": 198
+      "parent_id": 198,
+      "allows_inventory": true
     },
     {
       "id": 2422,
       "type": "condiments_and_sauces",
       "label": "Condiments & Sauces",
-      "parent_id": 198
+      "parent_id": 198,
+      "allows_inventory": true
     },
     {
       "id": 2423,
       "type": "soda_and_drinks",
       "label": "Soda & Drinks",
-      "parent_id": 198
+      "parent_id": 198,
+      "allows_inventory": true
     },
     {
       "id": 2424,
       "type": "baby_and_kids_clothes",
       "label": "Baby & Kids Clothes",
-      "parent_id": 200
+      "parent_id": 200,
+      "allows_inventory": true
     },
     {
       "id": 2425,
       "type": "baby_and_kids_shoes",
       "label": "Baby & Kids Shoes",
-      "parent_id": 200
+      "parent_id": 200,
+      "allows_inventory": true
     },
     {
       "id": 2426,
       "type": "baby_and_kids_supplies",
       "label": "Baby & Kids Supplies",
-      "parent_id": 200
+      "parent_id": 200,
+      "allows_inventory": true
     },
     {
       "id": 2427,
       "type": "candy",
       "label": "Candy",
-      "parent_id": 198
+      "parent_id": 198,
+      "allows_inventory": true
     },
     {
       "id": 2460,
       "type": "slime_and_squishy_toys",
       "label": "Slime & Squishy Toys",
-      "parent_id": 140
+      "parent_id": 140,
+      "allows_inventory": true
     },
     {
       "id": 2461,
       "type": "home_appliances",
       "label": "Home Appliances",
-      "parent_id": 347
+      "parent_id": 347,
+      "allows_inventory": true
     },
     {
       "id": 2494,
       "type": "mens_formalwear",
       "label": "Men's Formalwear",
-      "parent_id": 654
+      "parent_id": 654,
+      "allows_inventory": true
     }
   ]
 }
