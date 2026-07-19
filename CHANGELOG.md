@@ -1,5 +1,8 @@
 # Changelog
 
+## 1.1.1 — 2026-07-19
+Minor data change
+
 ## 1.1.0 — 2026-06-28
 Taxonomy format modified:
   * allows_inventory added to categories shape

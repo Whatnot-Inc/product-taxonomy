@@ -1,5 +1,5 @@
 {
-  "version": "1.1.0",
+  "version": "1.1.1",
   "categories": [
     {
       "id": 1,
@@ -2181,7 +2181,7 @@
     {
       "id": 2182,
       "type": "fresh_specialty_food",
-      "label": "Fresh & Specialty Food",
+      "label": "Perishable Food - Ships UPS",
       "parent_id": 198,
       "allows_inventory": true
     },
