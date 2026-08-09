@@ -1,5 +1,5 @@
 {
-  "version": "1.1.1",
+  "version": "1.1.2",
   "categories": [
     {
       "id": 1,
@@ -2351,6 +2351,34 @@
       "type": "mens_formalwear",
       "label": "Men's Formalwear",
       "parent_id": 654,
+      "allows_inventory": true
+    },
+    {
+      "id": 2527,
+      "type": "rugby_cards",
+      "label": "Rugby Cards",
+      "parent_id": 3,
+      "allows_inventory": false
+    },
+    {
+      "id": 2528,
+      "type": "rugby_breaks",
+      "label": "Rugby Breaks",
+      "parent_id": 2527,
+      "allows_inventory": true
+    },
+    {
+      "id": 2529,
+      "type": "rugby_singles",
+      "label": "Rugby Singles",
+      "parent_id": 2527,
+      "allows_inventory": true
+    },
+    {
+      "id": 2530,
+      "type": "rugby_mystery",
+      "label": "Rugby Mystery",
+      "parent_id": 2527,
       "allows_inventory": true
     }
   ]
