@@ -1,4 +1,4 @@
-version: 1.1.3
+version: 1.1.4
 categories:
 - id: 1
   type: funko_pop
@@ -1704,4 +1704,9 @@ categories:
   type: mineral_specimens
   label: Mineral Specimens
   parent_id: 163
+  allows_inventory: true
+- id: 2596
+  type: palworld
+  label: Palworld
+  parent_id: 149
   allows_inventory: true
