@@ -1,5 +1,5 @@
 {
-  "version": "1.1.4",
+  "version": "1.1.5",
   "categories": [
     {
       "id": 1,
@@ -138,7 +138,7 @@
       "id": 53,
       "type": "action_figures",
       "label": "Action Figures",
-      "parent_id": null,
+      "parent_id": 140,
       "allows_inventory": false
     },
     {
@@ -1692,7 +1692,7 @@
       "id": 1147,
       "type": "candles_and_aromatherapy",
       "label": "Candles & Aromatherapy",
-      "parent_id": null,
+      "parent_id": 254,
       "allows_inventory": true
     },
     {

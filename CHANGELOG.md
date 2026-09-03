@@ -1,5 +1,8 @@
 # Changelog
 
+## 1.1.5 — 2026-09-03
+Minor data change
+
 ## 1.1.4 — 2026-08-14
 New categories added
 
