@@ -1,5 +1,5 @@
 {
-  "version": "1.1.5",
+  "version": "1.1.6",
   "categories": [
     {
       "id": 1,
@@ -2393,6 +2393,34 @@
       "type": "palworld",
       "label": "Palworld",
       "parent_id": 149,
+      "allows_inventory": true
+    },
+    {
+      "id": 2664,
+      "type": "tennis_cards",
+      "label": "Tennis Cards",
+      "parent_id": 3,
+      "allows_inventory": false
+    },
+    {
+      "id": 2665,
+      "type": "tennis_breaks",
+      "label": "Tennis Breaks",
+      "parent_id": 2664,
+      "allows_inventory": true
+    },
+    {
+      "id": 2666,
+      "type": "tennis_singles",
+      "label": "Tennis Singles",
+      "parent_id": 2664,
+      "allows_inventory": true
+    },
+    {
+      "id": 2667,
+      "type": "tennis_mystery",
+      "label": "Tennis Mystery",
+      "parent_id": 2664,
       "allows_inventory": true
     }
   ]
