@@ -1,5 +1,5 @@
 {
-  "version": "1.1.6",
+  "version": "1.1.7",
   "categories": [
     {
       "id": 1,
@@ -405,7 +405,7 @@
       "type": "watches",
       "label": "Watches",
       "parent_id": null,
-      "allows_inventory": true
+      "allows_inventory": false
     },
     {
       "id": 198,
