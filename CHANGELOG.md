@@ -1,5 +1,8 @@
 # Changelog
 
+## 1.1.8 — 2026-09-30
+New categories added
+
 ## 1.1.7 — 2026-09-29
 Minor data change
 
