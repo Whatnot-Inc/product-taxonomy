@@ -1,5 +1,5 @@
 {
-  "version": "1.1.8",
+  "version": "1.1.9",
   "categories": [
     {
       "id": 1,
@@ -405,7 +405,7 @@
       "type": "watches",
       "label": "Watches",
       "parent_id": null,
-      "allows_inventory": true
+      "allows_inventory": false
     },
     {
       "id": 198,
@@ -2428,6 +2428,27 @@
       "type": "marbles",
       "label": "Marbles",
       "parent_id": 140,
+      "allows_inventory": true
+    },
+    {
+      "id": 2766,
+      "type": "modern_watches",
+      "label": "Modern Watches",
+      "parent_id": 165,
+      "allows_inventory": true
+    },
+    {
+      "id": 2767,
+      "type": "vintage_watches",
+      "label": "Vintage Watches",
+      "parent_id": 165,
+      "allows_inventory": true
+    },
+    {
+      "id": 2768,
+      "type": "luxury_watches",
+      "label": "Luxury Watches",
+      "parent_id": 165,
       "allows_inventory": true
     }
   ]
