@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.2.0 — 2026-10-21
+Taxonomy format modified:
+  * attributes added to taxonomy shape
+  * attributes added to categories shape
+
 ## 1.1.9 — 2026-10-13
 New categories added
 
