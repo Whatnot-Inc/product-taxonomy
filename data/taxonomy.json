@@ -1,5 +1,5 @@
 {
-  "version": "1.2.0",
+  "version": "1.2.1",
   "attributes": [
     {
       "id": 1,
@@ -7475,8 +7475,8 @@
       "id": 600,
       "key": "tcg.yugioh.grade",
       "label": "Grade",
-      "type": "ENUM",
-      "allows_custom_values": false,
+      "type": "STRING",
+      "allows_custom_values": true,
       "values": [
         "10",
         "9.5",
@@ -7819,8 +7819,8 @@
       "id": 620,
       "key": "tcg.dragonball_cards.grade",
       "label": "Grade",
-      "type": "ENUM",
-      "allows_custom_values": false,
+      "type": "STRING",
+      "allows_custom_values": true,
       "values": [
         "10",
         "9.5",
@@ -8321,8 +8321,8 @@
       "id": 639,
       "key": "tcg.metazoo.grade",
       "label": "Grade",
-      "type": "ENUM",
-      "allows_custom_values": false,
+      "type": "STRING",
+      "allows_custom_values": true,
       "values": [
         "10",
         "9.5",
@@ -8843,8 +8843,8 @@
       "id": 666,
       "key": "tcg.one_piece.grade",
       "label": "Grade",
-      "type": "ENUM",
-      "allows_custom_values": false,
+      "type": "STRING",
+      "allows_custom_values": true,
       "values": [
         "10",
         "9.5",
@@ -13436,6 +13436,66 @@
       "values": [],
       "min": null,
       "max": null
+    },
+    {
+      "id": 171757,
+      "key": "tcg.lorcana.set",
+      "label": "Set",
+      "type": "STRING",
+      "allows_custom_values": true,
+      "values": [],
+      "min": null,
+      "max": null
+    },
+    {
+      "id": 171758,
+      "key": "tcg.my_hero_academia.set ",
+      "label": "Set",
+      "type": "STRING",
+      "allows_custom_values": true,
+      "values": [],
+      "min": null,
+      "max": null
+    },
+    {
+      "id": 171789,
+      "key": "tcg.yugioh.cert_number",
+      "label": "Cert",
+      "type": "STRING",
+      "allows_custom_values": true,
+      "values": [],
+      "min": null,
+      "max": null
+    },
+    {
+      "id": 171790,
+      "key": "tcg.one_piece.cert_number",
+      "label": "Cert",
+      "type": "STRING",
+      "allows_custom_values": true,
+      "values": [],
+      "min": null,
+      "max": null
+    },
+    {
+      "id": 171791,
+      "key": "tcg.dragonball_cards.cert_number",
+      "label": "Cert",
+      "type": "STRING",
+      "allows_custom_values": true,
+      "values": [],
+      "min": null,
+      "max": null
+    },
+    {
+      "id": 171792,
+      "key": "tcg.metazoo.cert_number",
+      "label": "Cert",
+      "type": "STRING",
+      "allows_custom_values": true,
+      "values": [],
+      "min": null,
+      "max": null
     }
   ],
   "categories": [
@@ -13652,6 +13712,10 @@
         {
           "id": 603,
           "is_required": false
+        },
+        {
+          "id": 171789,
+          "is_required": false
         }
       ]
     },
@@ -13676,6 +13740,26 @@
         },
         {
           "id": 84,
+          "is_required": false
+        },
+        {
+          "id": 192,
+          "is_required": false
+        },
+        {
+          "id": 193,
+          "is_required": false
+        },
+        {
+          "id": 194,
+          "is_required": false
+        },
+        {
+          "id": 195,
+          "is_required": false
+        },
+        {
+          "id": 197,
           "is_required": false
         }
       ]
@@ -13745,6 +13829,10 @@
         },
         {
           "id": 623,
+          "is_required": false
+        },
+        {
+          "id": 171791,
           "is_required": false
         }
       ]
@@ -14040,6 +14128,10 @@
         {
           "id": 642,
           "is_required": false
+        },
+        {
+          "id": 171792,
+          "is_required": false
         }
       ]
     },
@@ -14060,6 +14152,30 @@
       "attributes": [
         {
           "id": 84,
+          "is_required": false
+        },
+        {
+          "id": 192,
+          "is_required": false
+        },
+        {
+          "id": 193,
+          "is_required": false
+        },
+        {
+          "id": 194,
+          "is_required": false
+        },
+        {
+          "id": 195,
+          "is_required": false
+        },
+        {
+          "id": 197,
+          "is_required": false
+        },
+        {
+          "id": 171758,
           "is_required": false
         }
       ]
@@ -14257,6 +14373,22 @@
       "attributes": [
         {
           "id": 84,
+          "is_required": false
+        },
+        {
+          "id": 192,
+          "is_required": false
+        },
+        {
+          "id": 193,
+          "is_required": false
+        },
+        {
+          "id": 194,
+          "is_required": false
+        },
+        {
+          "id": 195,
           "is_required": false
         }
       ]
@@ -16514,6 +16646,10 @@
         },
         {
           "id": 669,
+          "is_required": false
+        },
+        {
+          "id": 171790,
           "is_required": false
         }
       ]
@@ -19981,6 +20117,30 @@
       "attributes": [
         {
           "id": 84,
+          "is_required": false
+        },
+        {
+          "id": 192,
+          "is_required": false
+        },
+        {
+          "id": 193,
+          "is_required": false
+        },
+        {
+          "id": 194,
+          "is_required": false
+        },
+        {
+          "id": 195,
+          "is_required": false
+        },
+        {
+          "id": 197,
+          "is_required": false
+        },
+        {
+          "id": 171757,
           "is_required": false
         }
       ]
