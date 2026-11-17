@@ -1,5 +1,5 @@
 {
-  "version": "1.2.1",
+  "version": "1.2.2",
   "attributes": [
     {
       "id": 1,
@@ -5732,7 +5732,6 @@
         "Bauxite",
         "Beryl",
         "Blue Smoke Quartz",
-        "Boulder Opal",
         "Bournonite",
         "Bronzite",
         "Brookite",
@@ -5821,7 +5820,6 @@
         "Native Silver",
         "Obsidian",
         "Olmiite/Poldervaartite",
-        "Opal",
         "Orpiment",
         "Pakimer Diamonds",
         "Peacock Ore",
@@ -13496,6 +13494,62 @@
       "values": [],
       "min": null,
       "max": null
+    },
+    {
+      "id": 173460,
+      "key": "opals.construction",
+      "label": "Construction",
+      "type": "STRING",
+      "allows_custom_values": true,
+      "values": [
+        "Solid",
+        "Doublet",
+        "Triplet"
+      ],
+      "min": null,
+      "max": null
+    },
+    {
+      "id": 173461,
+      "key": "opals.type",
+      "label": "Type",
+      "type": "STRING",
+      "allows_custom_values": true,
+      "values": [
+        "Black",
+        "Dark",
+        "Light",
+        "Crystal",
+        "Boulder",
+        "Matrix",
+        "Fire"
+      ],
+      "min": null,
+      "max": null
+    },
+    {
+      "id": 173462,
+      "key": "opals.origin",
+      "label": "Origin",
+      "type": "STRING",
+      "allows_custom_values": true,
+      "values": [
+        "Lightning Ridge",
+        "Coober Pedy",
+        "Andamooka"
+      ],
+      "min": null,
+      "max": null
+    },
+    {
+      "id": 173463,
+      "key": "opals.polished",
+      "label": "Polished",
+      "type": "BOOLEAN",
+      "allows_custom_values": false,
+      "values": [],
+      "min": null,
+      "max": null
     }
   ],
   "categories": [
@@ -20965,6 +21019,31 @@
         },
         {
           "id": 158350,
+          "is_required": false
+        }
+      ]
+    },
+    {
+      "id": 2769,
+      "type": "opals",
+      "label": "Opals",
+      "parent_id": 163,
+      "allows_inventory": true,
+      "attributes": [
+        {
+          "id": 173461,
+          "is_required": false
+        },
+        {
+          "id": 173463,
+          "is_required": false
+        },
+        {
+          "id": 173460,
+          "is_required": false
+        },
+        {
+          "id": 173462,
           "is_required": false
         }
       ]
