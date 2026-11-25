@@ -1,4 +1,4 @@
-version: 1.2.2
+version: 1.2.3
 attributes:
 - id: 1
   key: sneakers.shoe_size
@@ -5330,8 +5330,8 @@ attributes:
 - id: 496
   key: crystals.type
   label: Type
-  type: ENUM
-  allows_custom_values: false
+  type: STRING
+  allows_custom_values: true
   values:
   - Adamite
   - Aegirine
@@ -5358,6 +5358,7 @@ attributes:
   - Bauxite
   - Beryl
   - Blue Smoke Quartz
+  - Boulder Opal
   - Bournonite
   - Bronzite
   - Brookite
@@ -5446,6 +5447,7 @@ attributes:
   - Native Silver
   - Obsidian
   - Olmiite/Poldervaartite
+  - Opal
   - Orpiment
   - Pakimer Diamonds
   - Peacock Ore
